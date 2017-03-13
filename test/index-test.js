@@ -8,7 +8,6 @@ describe('shout(string)', function() {
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
     expect(whisper('HELLO')).toEqual('hello')
-  })
 })
 
 describe('logShout(string)', function() {
@@ -21,6 +20,7 @@ describe('logShout(string)', function() {
 
     console.log.restore()
   })
+})
 })
 
 describe('logWhisper(string)', function() {
